@@ -17,4 +17,4 @@ setup(
         'jupyter_serverproxy_servers': [
             'convnet_mnist = convnet_mnist:setup_convnet_mnist',
         ]
-    }
+    })
