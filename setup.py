@@ -4,11 +4,10 @@ from setuptools import setup
 setup(
     name="nb-convnet_mnist",
     packages= ['convnet_mnist'],
-    version='0.0.1',
+    version='0.0.2',
     include_package_data=True,
     install_requires=[
-        'jupyter-server-proxy',
-        'notebook'
+        'jupyter-server-proxy'
     ],
     url="https://github.com/ouseful-PR/Hand-Written-Digit-Recognition",
     author="",
